@@ -1,0 +1,8 @@
+.hover-button .hover-button--on,
+.hover-button:hover .hover-button--off {
+  color: white;
+}
+
+.hover-button:hover .hover-button--on {
+  color: green;
+}
