@@ -8,6 +8,8 @@ import {
 import Themes from "../views/Themes";
 import Home from "../views/Home";
 import '../styles/Header.css';
+import SignIn from "../views/SignInForm";
+import SignUp from "../views/SignUpForm";
 
 function Header() {
 
@@ -81,10 +83,10 @@ function Header() {
 
               <div class="d-flex align-items-center">
                 <button type="button" class="btn btn-link px-3 me-2 hover-button" style={{textDecoration: 'none', color:'white'} }>
-                  Login
+                <Link className={linkClassName} aria-current="page" to="/Signin" onclick={addActive}>Login</Link>
                 </button>
                 <button type="button" class="btn btn-success me-3">
-                  Sign up
+                <Link className={linkClassName} aria-current="page" to="/Signup" onclick={addActive}>Sign Up</Link>
                 </button>
               </div>
             </div>
@@ -95,6 +97,14 @@ function Header() {
 
           <Route path="/themes">
             <Themes />
+          </Route>
+
+          <Route path="/Signin">
+            <SignIn />
+          </Route>
+
+          <Route path="/Signup">
+            <SignUp />
           </Route>
 
           <Route path="/">
