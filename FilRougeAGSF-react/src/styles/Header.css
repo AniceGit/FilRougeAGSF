@@ -6,3 +6,8 @@
 .hover-button:hover .hover-button--on {
   color: green;
 }
+
+.header{
+  height: 50px;
+  margin-bottom: 40px;
+}

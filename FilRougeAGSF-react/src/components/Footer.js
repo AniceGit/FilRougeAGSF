@@ -1,3 +1,5 @@
+import '../styles/Footer.css';
+
 function Footer() {
   return (
     <footer className="text-center text-white fixed-bottom" style={{backgroundColor : '#21081a'}}>
@@ -10,5 +12,5 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;
 
