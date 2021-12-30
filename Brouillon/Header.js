@@ -8,6 +8,7 @@ import {
 // import Themes from "../views/Themes";
 // import Home from "../views/Home";
 import '../styles/Header.css';
+import Sidebar from "../views/Sidebar";
 // import SignIn from "../views/SignInForm";
 // import SignUp from "../views/SignUp";
 
@@ -24,7 +25,9 @@ function Header() {
 
 
   return (
-
+    <div>
+    <Sidebar/>
+    
     <div className="header">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
@@ -100,6 +103,7 @@ function Header() {
         </div>
       </nav>
 
+    </div>
     </div>
 
   )

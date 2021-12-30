@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// import Footer from "../components/Footer";
 import '../styles/FormStyle.css';
 
 const SignIn = () => {
@@ -19,13 +20,14 @@ const SignIn = () => {
                     {/* <input type="email" className="input" placeholder="Enter your email adress" value={email} onChange={(e) => setEmail(e.target.value)} required /> */}
                     <i className="fa fa-lock"></i><input type="password" className="input" placeholder="Enter your password" value={password} onChange={(e) => setPassword(e.target.value)} required />
                     <div>
-                        <Link to='/ChatPage'><button className="button" type="submit"><span>Sign In</span></button></Link>
+                        <Link to='/Main'><button className="button" type="submit"><span>Sign In</span></button></Link>
                     </div>
                     <div>
                     <Link to='/Signup'> Not register yet ?</Link>
                     </div>
                 </form>
             </div>
+            {/* <Footer/> */}
         </div>
     )
 

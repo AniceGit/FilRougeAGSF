@@ -43,7 +43,7 @@ body,input{
     left: 0; 
 }
 
-.in{
+.signin .in{
     top: 30%;
     left: -25%;
 }
@@ -119,7 +119,7 @@ input {
     height: 49px;
     outline: none;
     border: none;
-    background-color: #20dbc2;
+    background-color: #20DBC2;
     color: white;
     border-radius: 48px;
     text-transform: uppercase;

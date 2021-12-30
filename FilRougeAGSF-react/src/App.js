@@ -1,7 +1,5 @@
 import './App.css';
-// import Header from './components/Header';
-// import Footer from './components/Footer';
-// import Cours from './Views/Themes';
+
 
 import {
   BrowserRouter as Router,
@@ -12,13 +10,16 @@ import {
 import Tags from './views/Tags';
 import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
-import Home from './views/Home';
+import Main from './views/Main';
+import Profil from './views/Profil';
+
+
 
 function App() {
   return (
     <Router>
     <div className="App">
-      {/* <Header/> */}
+       {/* <Main/>  */}
       {/* <Cours/> */}
       {/* <Footer/> */}
     
@@ -36,8 +37,12 @@ function App() {
             <SignUp />
           </Route>
 
+          <Route path="/Profil">
+            <Profil />
+          </Route>
+
           <Route path="/">
-            <Home />
+            <Main />
           </Route>
 
         </Switch>
