@@ -9,7 +9,8 @@ function Sidebar () {
     return(
     <div>
         <nav className="navbar  fixed-top flex-md-nowrap p-0">
-        <Link to='/Main' style={{ textDecoration: 'none', margin: 0}}> <a className="navbar-brand col-sm-3 col-md-2 mr-0" href="!#" >AGSF|DEV</a> </Link>
+        {/* <img src={'../img/LogoAGSFDark.png'} alt="" /> */}
+        <Link to='/Main' style={{ textDecoration: 'none', margin: 0}}><a className="navbar-brand col-sm-3 col-md-2 mr-0" href="!#" >AGSF|DEV</a></Link>
             <input type="text" className="form-control " placeholder="Search..." />
             <ul className="col-auto navBar">
                 <li className="list-inline-item">
