@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import FormQuestion from "../components/FormQuestion";
-import Sidebar from "./Sidebar";
+import Sidebar from "../components/Sidebar";
 
 function FormulaireQuestion(){
     return(

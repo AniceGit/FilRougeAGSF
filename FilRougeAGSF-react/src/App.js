@@ -12,10 +12,10 @@ import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
 import Main from './views/Main';
 import Profil from './views/Profil';
-import QuestionPage from './views/QuestionPage';
 import About from './views/About';
 import FormulaireQuestion from './views/FormulaireQuestion';
 import Question from './views/Question';
+import QuestionTag from './views/QuestionTag';
 
 
 
@@ -56,14 +56,16 @@ function App() {
           <Route path="/Question">
             <Question/>
           </Route>
+          
+          <Route path="/QuestionTag">
+            <QuestionTag />
+          </Route>
 
           <Route path="/">
             <Main />
           </Route>
 
-          <Route path="/question">
-            <QuestionPage />
-          </Route>
+        
 
         </Switch>
         </div>

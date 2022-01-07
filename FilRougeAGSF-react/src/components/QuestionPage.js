@@ -1,5 +1,5 @@
-import { CodeBlock } from "@atlaskit/code";
 import { SimpleTag } from "@atlaskit/tag";
+import {CodeBlock} from "@atlaskit/code";
 import { PureComponent } from "react";
 import { Container, Row, Stack } from "react-bootstrap";
 import Commentaire from "./Commentaire";
@@ -7,7 +7,7 @@ import Commentaire from "./Commentaire";
 class QuestionPage extends PureComponent {
     state = {
         question: {
-            title: "Comment créer une page de question pour un fil rouge",
+            title: "Probleme utilisation des variables React.Js",
             content: "Lorem ipsum dolor sit amet. Id dolorum quia eos asperiores consectetur qui quas beatae et veritatis autem id voluptas quis. Id tenetur possimus in tenetur porro ut perferendis voluptatem sit veniam debitis. Qui rerum temporibus ea nulla numquam qui corrupti quas non voluptas recusandae quo voluptatem quam ea quia ipsam aut quia modi. Et numquam minima ut tenetur illum ad veritatis tempora ex perspiciatis sunt et quibusdam internos et galisum consequatur.",
             nameUser: "de La Bath",
             prenomUser: "Hubert Bonisseur",

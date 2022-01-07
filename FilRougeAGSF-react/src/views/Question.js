@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import PageQuestion from "../components/PageQuestion";
-import Sidebar from "./Sidebar";
+import Sidebar from "../components/Sidebar";
 
 function Question(){
     return(

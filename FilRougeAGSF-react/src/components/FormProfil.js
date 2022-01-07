@@ -11,7 +11,7 @@ function FormProfil () {
             <div className="wrapperForm ">
                 <div className="form ">
                     <form action="">
-                    <UserOutlined /><input type="text" className="input" placeholder="Jane Doe" />
+                   <input addonBefore={<UserOutlined />} type="text" className="input" placeholder="Jane Doe" />
                         <i className="fa fa-envelope"></i><input type="email" className="input" placeholder="JDoe@gmail.com" />
                         <i className="fa fa-lock"></i><input type="password" className="input" placeholder="**********" />
                         <div>

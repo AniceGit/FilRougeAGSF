@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Sidebar from "./Sidebar";
+import Sidebar from "../components/Sidebar";
 import Tags from "./Tags";
 
 function Main (){

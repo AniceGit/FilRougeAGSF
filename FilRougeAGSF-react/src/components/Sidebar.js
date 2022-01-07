@@ -1,5 +1,5 @@
 import React from "react";
-import {SidebarData} from '../components/SidebarData';
+import {SidebarData} from './SidebarData';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import LogoAGSFDark from '../img/LogoAGSFDark.png';

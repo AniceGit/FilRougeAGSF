@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import FormProfil from "../components/FormProfil";
-import Sidebar from "./Sidebar";
+import Sidebar from "../components/Sidebar";
 
 function Profil (){
     return(
