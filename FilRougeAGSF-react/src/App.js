@@ -12,7 +12,14 @@ import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
 import Main from './views/Main';
 import Profil from './views/Profil';
+<<<<<<< HEAD
 import QuestionPage from './views/QuestionPage';
+=======
+import About from './views/About';
+import FormulaireQuestion from './views/FormulaireQuestion';
+import Question from './views/Question';
+
+>>>>>>> 8eb371e6d58287a1769999b1138a823d6be9ba56
 
 
 function App() {
@@ -29,6 +36,10 @@ function App() {
             <Tags />
           </Route>
 
+          <Route path="/About">
+            <About/>
+          </Route>
+
           <Route path="/Signin">
             <SignIn />
           </Route>
@@ -39,6 +50,14 @@ function App() {
 
           <Route path="/Profil">
             <Profil />
+          </Route>
+
+          <Route path="/FormulaireQuestion">
+            <FormulaireQuestion/>
+          </Route>
+
+          <Route path="/Question">
+            <Question/>
           </Route>
 
           <Route path="/">

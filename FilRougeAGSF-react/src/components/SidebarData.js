@@ -10,19 +10,19 @@ export const SidebarData = [
     {
         title: "Tags",
         icon: <LocalOfferIcon />,
-        link:"/themes"
+        link:"/Main"
 
 },
 {
     title: "Questions",
     icon: < QuestionAnswerIcon />,
-    link:"/"
+    link:"/Question"
 
 },
 {
     title: "About",
     icon: <InfoIcon/>,
-    link:"/about"
+    link:"/About"
 
 },
 {
