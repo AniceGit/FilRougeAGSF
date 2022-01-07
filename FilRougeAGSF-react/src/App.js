@@ -12,7 +12,7 @@ import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
 import Main from './views/Main';
 import Profil from './views/Profil';
-
+import QuestionPage from './views/QuestionPage';
 
 
 function App() {
@@ -43,6 +43,10 @@ function App() {
 
           <Route path="/">
             <Main />
+          </Route>
+
+          <Route path="/question">
+            <QuestionPage />
           </Route>
 
         </Switch>
