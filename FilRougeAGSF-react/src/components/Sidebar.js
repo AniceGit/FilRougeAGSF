@@ -43,9 +43,9 @@ function Sidebar () {
         </nav>
         <div className="container-fluid">
             <div className="row">
-                <div class="col-md-2  d-none d-md-block sidebar">
-                    <div class="left-sidebar">
-                        <ul class="nav flex-column sidebar-nav">
+                <div className="col-md-2  d-none d-md-block sidebar">
+                    <div className="left-sidebar">
+                        <ul className="nav flex-column sidebar-nav">
                         {SidebarData.map((val,key)=>
                 {
                     //put onClick function te be redirected to the link value in sidebarData
